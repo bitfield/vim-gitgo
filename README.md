@@ -6,6 +6,8 @@ It looks like this:
 
 ![Screenshot](screenshot.png)
 
+(The font in the screenshot is [Fira Code Light](https://github.com/tonsky/FiraCode), with ligatures enabled.)
+
 ## Installation
 
 With Pathogen:
