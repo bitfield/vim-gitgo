@@ -23,3 +23,15 @@ hi Type                 ctermfg=166
 hi goSimpleArguments    ctermfg=166
 hi goArgumentName       ctermfg=166
 hi goArgumentType       ctermfg=166
+
+" complete menu
+hi Pmenu                ctermfg=81  ctermbg=235
+hi PmenuSel             ctermfg=235 ctermbg=81
+
+" screen furniture
+hi VertSplit ctermfg=0
+
+" GoCoverage support
+hi def link goCoverageNormalText Comment
+hi def      goCoverageCovered    ctermfg=green
+hi def      goCoverageUncover    ctermfg=red
