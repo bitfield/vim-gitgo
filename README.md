@@ -1,12 +1,16 @@
 # vim-gitgo
 
-gitgo is a Vim syntax colorscheme, primarily for use with Go. It's inspired by the default GitHub theme for Go syntax, which is pleasantly minimalist and easy on the eye, but `vim-gitgo` uses a dark background instead of light.
+gitgo is a Vim syntax colorscheme, primarily for use with Go. It's inspired by the default GitHub theme for Go syntax, which is pleasantly minimalist and easy on the eye. It's usable both with light and dark backgrounds.
 
-It looks like this:
+It looks like this in the terminal:
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshot_terminal.png)
 
-(The font in the screenshot is [Fira Code Light](https://github.com/tonsky/FiraCode), with ligatures enabled.)
+And like this in a graphical Vim:
+
+![Screenshot](screenshot_gui.png)
+
+(The font in the screenshots is [Fira Code Light](https://github.com/tonsky/FiraCode), with ligatures enabled.)
 
 ## Installation
 
@@ -27,7 +31,7 @@ autocmd BufNewFile,BufRead *.go colorscheme gitgo
 
 ## Requirements
 
-You need a 256-color-capable terminal type, such as:
+If you're using Vim in a terminal, you need a 256-color-capable terminal type, such as:
 
 ```sh
 export TERM=xterm-256color
