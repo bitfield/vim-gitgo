@@ -2,13 +2,13 @@
 
 gitgo is a Vim syntax colorscheme, primarily for use with Go. It's inspired by the default GitHub theme for Go syntax, which is pleasantly minimalist and easy on the eye. It's usable both with light and dark backgrounds.
 
-It looks like this in the terminal:
+It looks like this with a dark background:
 
-![Screenshot](screenshot_terminal.png)
+![Screenshot](screenshot_dark.png)
 
-And like this in a graphical Vim:
+And like this with a light background:
 
-![Screenshot](screenshot_gui.png)
+![Screenshot](screenshot_light.png)
 
 (The font in the screenshots is [Fira Code Light](https://github.com/tonsky/FiraCode), with ligatures enabled.)
 
